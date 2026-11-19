@@ -15,8 +15,8 @@ provider "kubernetes" {
 module "ephemeral_env_demo" {
   source = "./modules/namespace"
 
-  environment_name = "preview-feature-x"
-  owner            = "rajkamal"
-  cpu_limit        = "2"
-  memory_limit     = "4Gi"
+  environment_name = var.environment_name
+  owner            = var.owner
+  cpu_limit        = var.cpu_limit
+  memory_limit     = var.memory_limit
 }
