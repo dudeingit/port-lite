@@ -24,3 +24,5 @@ Built for local developer velocity on **WSL2 + Docker Desktop + `kind`**, **Port
   │  Namespace & │──▶│  Namespace: preview-<env>         │
   │  Quotas      │   │  Workload & Service (app-template)│
   └──────────────┘   └───────────────────────────────────┘
+````
+Repository Structure
