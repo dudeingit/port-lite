@@ -1,0 +1,38 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments & local packaging
+.venv/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Terraform local directories, state, and variable overrides
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform.lock.hcl
+crash.log
+crash.*.log
+
+# Helm local packaging artifacts
+*.tgz
+
+# Logs & temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE / Editor / WSL / OS artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
