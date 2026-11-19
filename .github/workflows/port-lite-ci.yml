@@ -48,3 +48,8 @@ jobs:
           assert resp.get_json().get("status") == "healthy"
           print("Health check passed:", resp.get_json())
           '
+      - name: Run unit tests with pytest
+        env:
+          PYTHONPATH: .
+        run: |
+          pytest -v
